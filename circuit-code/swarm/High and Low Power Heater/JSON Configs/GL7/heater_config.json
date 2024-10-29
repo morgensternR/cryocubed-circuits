@@ -1,0 +1,12 @@
+{
+   "heaters" :  ["4PUMP_HEATER","3PUMP_HEATER", "4SWITCH_HEATER","3SWITCHA_HEATER", "PID_HEATER_300MK"],
+   "qtpy pinout" : [[29, 28], [27,26], [0,0], [0,0], [0,0]],
+   "machine number" : [0 , 1, -1, -1, -1],
+   "i2c" : [[23, 22], [23, 22], [23, 22], [23, 22], [23, 22]],
+   "i2c address" : [69, 64, 95, 95, 88],
+   "switch i2c address": 91,
+   "dac num": [-1, -1, 5, 5, 4],
+   "lph port" : [-1,-1, 10,9,8],
+   "lph ch" : [-1,-1, 0,1,0]
+   }
+

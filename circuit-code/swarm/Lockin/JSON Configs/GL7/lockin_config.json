@@ -1,0 +1,9 @@
+{
+   "lockins" :  ["3HEAD","4HEAD", "STAGE300MK"],
+   "mux address" : [4, 3, 2],
+   "power address": [4,3,2],
+   "wire count" : [4 , 2, 4],
+   "i2c": [ [7,6], [7,6], [7,6] ],
+   "mux pins": [ [2,3], [2,3], [2,3] ]
+   }
+
