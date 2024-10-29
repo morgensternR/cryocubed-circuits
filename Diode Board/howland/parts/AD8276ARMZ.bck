@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8276ARMZ
+D Analog Devices AD8276ARMZ, Differential Amplifier 0.55MHz Rail to Rail Output 8-pin MSOP
+K
+F http://docs-europe.electrocomponents.com/webdocs/10ad/0900766b810adb2e.pdf
+$ENDCMP
+#
+#End Doc Library

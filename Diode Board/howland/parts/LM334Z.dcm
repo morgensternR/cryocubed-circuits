@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM334Z
+D TEXAS INSTRUMENTS - LM334Z - IC, ADJUSTABLE CURRENT SOURCE, 3TO92
+F http://www.ti.com/lit/ds/symlink/lm334.pdf
+$ENDCMP
+#
+#End Doc Library

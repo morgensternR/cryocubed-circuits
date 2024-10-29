@@ -1,0 +1,843 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2750 2400 1700 1050
+U 59ED0E6A
+F0 "Channel0" 60
+F1 "channel.sch" 60
+F2 "Vin" I R 4450 2550 60 
+F3 "gnd" I R 4450 3350 60 
+F4 "I+" O L 2750 2650 60 
+F5 "V+" I L 2750 2800 60 
+F6 "V-" I L 2750 3150 60 
+F7 "I-" O L 2750 3000 60 
+F8 "out" O R 4450 2900 60 
+$EndSheet
+$Sheet
+S 2750 3900 1700 700 
+U 59ED3D7B
+F0 "Channel1" 60
+F1 "channel.sch" 60
+F2 "Vin" I R 4450 4000 60 
+F3 "gnd" I R 4450 4500 60 
+F4 "I+" O L 2750 4000 60 
+F5 "V+" I L 2750 4150 60 
+F6 "V-" I L 2750 4300 60 
+F7 "I-" O L 2750 4450 60 
+F8 "out" O R 4450 4250 60 
+$EndSheet
+$Sheet
+S 2750 4950 1700 650 
+U 59ED3D94
+F0 "Channel2" 60
+F1 "channel.sch" 60
+F2 "Vin" I R 4450 5050 60 
+F3 "gnd" I R 4450 5500 60 
+F4 "I+" O L 2750 5100 60 
+F5 "V+" I L 2750 5250 60 
+F6 "V-" I L 2750 5400 60 
+F7 "I-" O L 2750 5550 60 
+F8 "out" O R 4450 5250 60 
+$EndSheet
+$Sheet
+S 2750 5950 1700 600 
+U 59ED3DAD
+F0 "Channel3" 60
+F1 "channel.sch" 60
+F2 "Vin" I R 4450 6000 60 
+F3 "gnd" I R 4450 6500 60 
+F4 "I+" O L 2750 6050 60 
+F5 "V+" I L 2750 6200 60 
+F6 "V-" I L 2750 6350 60 
+F7 "I-" O L 2750 6500 60 
+F8 "out" O R 4450 6250 60 
+$EndSheet
+$Comp
+L JST_lipo_adafruit:JST_lipo_adafruit J3
+U 1 1 59ED5F16
+P 6650 2250
+F 0 "J3" H 6650 2350 50  0000 C CNN
+F 1 "Conn_01x02" H 6650 2050 50  0000 C CNN
+F 2 "parts:JST_lipo_adafruit" H 6650 2250 50  0001 C CNN
+F 3 "" H 6650 2250 50  0001 C CNN
+F 4 "JST" H 0   0   50  0001 C CNN "MFR"
+F 5 "B2B-PH-K-S(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
+F 6 "455-1704-ND" H 0   0   50  0001 C CNN "SPN"
+F 7 "-" H 0   0   50  0001 C CNN "SPR"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 6650 2250 50 0001 C CNN "LCSC"
+	1    6650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L JST_lipo_adafruit:JST_lipo_adafruit J5
+U 1 1 59ED5FF3
+P 7250 2250
+F 0 "J5" H 7250 2350 50  0000 C CNN
+F 1 "Conn_01x02" H 7250 2050 50  0000 C CNN
+F 2 "parts:JST_lipo_adafruit" H 7250 2250 50  0001 C CNN
+F 3 "" H 7250 2250 50  0001 C CNN
+F 4 "JST" H 0   0   50  0001 C CNN "MFR"
+F 5 "B2B-PH-K-S(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
+F 6 "455-1704-ND" H 0   0   50  0001 C CNN "SPN"
+F 7 "-" H 0   0   50  0001 C CNN "SPR"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 7250 2250 50 0001 C CNN "LCSC"
+	1    7250 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 59EDE0D2
+P 4600 6650
+F 0 "#PWR05" H 4600 6400 50  0001 C CNN
+F 1 "GND" H 4600 6500 50  0000 C CNN
+F 2 "" H 4600 6650 50  0001 C CNN
+F 3 "" H 4600 6650 50  0001 C CNN
+	1    4600 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DB9_Female_MountingHoles J1
+U 1 1 59EDF591
+P 1550 3600
+F 0 "J1" H 1550 4250 50  0000 C CNN
+F 1 "DB9_Female_MountingHoles" H 1550 4175 50  0000 C CNN
+F 2 "Connectors_DSub:DB9_ASSMANN" H 1550 3600 50  0001 C CNN
+F 3 "" H 1550 3600 50  0001 C CNN
+F 4 "ASSMANN" H 0   0   50  0001 C CNN "MFR"
+F 5 "A-DF 09 A/KG-T2S" H 1550 3600 60  0001 C CNN "MPN"
+F 6 "AE10921-ND" H 0   0   50  0001 C CNN "SPN"
+F 7 "-" H 0   0   50  0001 C CNN "SPR"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 1550 3600 50 0001 C CNN "LCSC"
+	1    1550 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:DB9_Female_MountingHoles J2
+U 1 1 59EDF835
+P 1550 5750
+F 0 "J2" H 1550 6400 50  0000 C CNN
+F 1 "DB9_Female_MountingHoles" H 1550 6325 50  0000 C CNN
+F 2 "Connectors_DSub:DB9_ASSMANN" H 1550 5750 50  0001 C CNN
+F 3 "" H 1550 5750 50  0001 C CNN
+F 4 "ASSMANN" H 0   0   50  0001 C CNN "MFR"
+F 5 "A-DF 09 A/KG-T2S" H 1550 5750 60  0001 C CNN "MPN"
+F 6 "AE10921-ND" H 0   0   50  0001 C CNN "SPN"
+F 7 "-" H 0   0   50  0001 C CNN "SPR"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 1550 5750 50 0001 C CNN "LCSC"
+	1    1550 5750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 59EE6157
+P 2400 5750
+F 0 "R4" V 2480 5750 50  0000 C CNN
+F 1 "dnf" V 2400 5750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2330 5750 50  0001 C CNN
+F 3 "" H 2400 5750 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPN"
+F 7 "-" H 0   0   50  0001 C CNN "SPR"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 2400 5750 50 0001 C CNN "LCSC"
+	1    2400 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 59EE8ACA
+P 2250 3600
+F 0 "R3" V 2330 3600 50  0000 C CNN
+F 1 "dnf" V 2250 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2180 3600 50  0001 C CNN
+F 3 "" H 2250 3600 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPN"
+F 7 "-" H 0   0   50  0001 C CNN "SPR"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 2250 3600 50 0001 C CNN "LCSC"
+	1    2250 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 59EE8D33
+P 2500 3600
+F 0 "#PWR03" H 2500 3350 50  0001 C CNN
+F 1 "GND" H 2500 3450 50  0000 C CNN
+F 2 "" H 2500 3600 50  0001 C CNN
+F 3 "" H 2500 3600 50  0001 C CNN
+	1    2500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 59EE8E62
+P 2650 5750
+F 0 "#PWR04" H 2650 5500 50  0001 C CNN
+F 1 "GND" H 2650 5600 50  0000 C CNN
+F 2 "" H 2650 5750 50  0001 C CNN
+F 3 "" H 2650 5750 50  0001 C CNN
+	1    2650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 59EE8F53
+P 1550 6650
+F 0 "R2" V 1630 6650 50  0000 C CNN
+F 1 "dnf" V 1550 6650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1480 6650 50  0001 C CNN
+F 3 "" H 1550 6650 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPN"
+F 7 "-" H 0   0   50  0001 C CNN "SPR"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 1550 6650 50 0001 C CNN "LCSC"
+	1    1550 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 59EE9044
+P 1550 4350
+F 0 "R1" V 1630 4350 50  0000 C CNN
+F 1 "dnf" V 1550 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1480 4350 50  0001 C CNN
+F 3 "" H 1550 4350 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPN"
+F 7 "-" H 0   0   50  0001 C CNN "SPR"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 1550 4350 50 0001 C CNN "LCSC"
+	1    1550 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 59EE9127
+P 1550 6850
+F 0 "#PWR02" H 1550 6600 50  0001 C CNN
+F 1 "GND" H 1550 6700 50  0000 C CNN
+F 2 "" H 1550 6850 50  0001 C CNN
+F 3 "" H 1550 6850 50  0001 C CNN
+	1    1550 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 59EE91FE
+P 1550 4600
+F 0 "#PWR01" H 1550 4350 50  0001 C CNN
+F 1 "GND" H 1550 4450 50  0000 C CNN
+F 2 "" H 1550 4600 50  0001 C CNN
+F 3 "" H 1550 4600 50  0001 C CNN
+	1    1550 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 59EEF81D
+P 4700 2350
+F 0 "#FLG01" H 4700 2425 50  0001 C CNN
+F 1 "PWR_FLAG" H 4700 2500 50  0000 C CNN
+F 2 "" H 4700 2350 50  0001 C CNN
+F 3 "" H 4700 2350 50  0001 C CNN
+	1    4700 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 59EEFD97
+P 6900 2350
+F 0 "#FLG02" H 6900 2425 50  0001 C CNN
+F 1 "PWR_FLAG" H 6900 2500 50  0000 C CNN
+F 2 "" H 6900 2350 50  0001 C CNN
+F 3 "" H 6900 2350 50  0001 C CNN
+	1    6900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MH:MountingHole MH1
+U 1 1 5A49671B
+P 9400 1300
+F 0 "MH1" H 9400 1400 50  0000 C CNN
+F 1 "MountingHole" H 9400 1200 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad" H 9400 1300 50  0001 C CNN
+F 3 "" H 9400 1300 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPN"
+F 7 "-" H 0   0   50  0001 C CNN "SPR"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 9400 1300 50 0001 C CNN "LCSC"
+	1    9400 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MH:MountingHole MH2
+U 1 1 5A496851
+P 9400 1550
+F 0 "MH2" H 9400 1650 50  0000 C CNN
+F 1 "MountingHole" H 9400 1450 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad" H 9400 1550 50  0001 C CNN
+F 3 "" H 9400 1550 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPN"
+F 7 "-" H 0   0   50  0001 C CNN "SPR"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 9400 1550 50 0001 C CNN "LCSC"
+	1    9400 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MH:MountingHole MH3
+U 1 1 5A496973
+P 9400 1850
+F 0 "MH3" H 9400 1950 50  0000 C CNN
+F 1 "MountingHole" H 9400 1750 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad" H 9400 1850 50  0001 C CNN
+F 3 "" H 9400 1850 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPN"
+F 7 "-" H 0   0   50  0001 C CNN "SPR"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 9400 1850 50 0001 C CNN "LCSC"
+	1    9400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MH:MountingHole MH4
+U 1 1 5A496A82
+P 9400 2150
+F 0 "MH4" H 9400 2250 50  0000 C CNN
+F 1 "MountingHole" H 9400 2050 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad" H 9400 2150 50  0001 C CNN
+F 3 "" H 9400 2150 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPN"
+F 7 "-" H 0   0   50  0001 C CNN "SPR"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 9400 2150 50 0001 C CNN "LCSC"
+	1    9400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Analog_ADC:ADS1115IDGS U1
+U 1 1 5DA28965
+P 5650 1350
+F 0 "U1" H 5300 1700 50  0000 C CNN
+F 1 "ADS1115IDGS" H 5300 1800 50  0000 C CNN
+F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H 5650 850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads1113.pdf" H 5600 450 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "ADS1115IDGSR" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPN"
+F 7 "-" H 0   0   50  0001 C CNN "SPR"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 5600 450 50 0001 C CNN "LCSC"
+	1    5650 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J4
+U 1 1 5DA3963C
+P 7050 1000
+F 0 "J4" H 7158 1281 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 7158 1190 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 7050 1000 50  0001 C CNN
+F 3 "~" H 7050 1000 50  0001 C CNN
+F 4 "JST" H 0   0   50  0001 C CNN "MFR"
+F 5 "SM04B-SRSS-TB" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPN"
+F 7 "-" H 0   0   50  0001 C CNN "SPR"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 7050 1000 50 0001 C CNN "LCSC"
+	1    7050 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5DA4177E
+P 6350 1200
+F 0 "R5" H 6420 1246 50  0000 L CNN
+F 1 "4.7K" H 6420 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 1200 50  0001 C CNN
+F 3 "~" H 6350 1200 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0603FR-074K7L" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPN"
+F 7 "-" H 0   0   50  0001 C CNN "SPR"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 6350 1200 50 0001 C CNN "LCSC"
+	1    6350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5DA42153
+P 6600 1300
+F 0 "R6" H 6670 1346 50  0000 L CNN
+F 1 "4.7K" H 6670 1255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6530 1300 50  0001 C CNN
+F 3 "~" H 6600 1300 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0603FR-074K7L" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPN"
+F 7 "-" H 0   0   50  0001 C CNN "SPR"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 6600 1300 50 0001 C CNN "LCSC"
+	1    6600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5DA450E4
+P 6150 800
+F 0 "C1" H 6175 900 50  0000 L CNN
+F 1 "100nF" V 5950 400 50  0000 L TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6188 650 50  0001 C CNN
+F 3 "CC0603KRX7R9BB104" H 6150 800 50  0001 C CNN
+F 4 "Samsung" H -3450 -3150 50  0001 C CNN "MFR"
+F 5 "" H -3450 -3150 50  0001 C CNN "MPN"
+F 6 "" H -3450 -3150 50  0001 C CNN "SPN"
+F 7 "" H -3450 -3150 50  0001 C CNN "SPR"
+F 8 "-" H -3450 -3150 50  0001 C CNN "SPURL"
+F 9 "" H 6150 800 50 0001 C CNN "LCSC"
+	1    6150 800 
+	0    1    1    0   
+$EndComp
+Text Label 4800 2550 0    60   ~ 0
+analog
+Text Label 6550 2600 0    60   ~ 0
+GND
+Text Notes 6450 1900 0    60   ~ 0
+JST, pin1-gnd, pin2-power
+Text Label 7250 900  0    50   ~ 0
+scl
+Text Label 7250 1000 0    50   ~ 0
+sda
+Text Label 7250 1100 0    50   ~ 0
+i2c_power
+Text Label 7250 1200 0    60   ~ 0
+GND
+Text Label 8200 900  0    50   ~ 0
+scl
+Text Label 8200 1000 0    50   ~ 0
+sda
+Text Label 8200 1100 0    50   ~ 0
+i2c_power
+Text Label 8200 1200 0    60   ~ 0
+GND
+Text Label 5650 850  0    60   ~ 0
+digital
+Text Label 6300 800  0    60   ~ 0
+GND
+Text Label 6050 1700 2    60   ~ 0
+GND
+Text Label 5650 1750 0    60   ~ 0
+GND
+Text Label 5400 2900 0    50   ~ 0
+ch0
+Text Label 5250 1250 2    50   ~ 0
+ch0
+Text Label 5450 4250 0    50   ~ 0
+ch1
+Text Label 5250 1350 2    50   ~ 0
+ch1
+Text Label 5400 5250 0    50   ~ 0
+ch2
+Text Label 5400 6250 0    50   ~ 0
+ch3
+Text Label 5250 1550 2    50   ~ 0
+ch3
+Text Label 5250 1450 2    50   ~ 0
+ch2
+Text Label 7450 3650 2    50   ~ 0
+digital
+Text Label 9500 3650 0    60   ~ 0
+analog
+Text Label 6150 1350 0    50   ~ 0
+scl
+Text Label 6250 1450 0    50   ~ 0
+sda
+Wire Wire Line
+	4450 2900 6050 2900
+Wire Wire Line
+	4450 4250 6050 4250
+Wire Wire Line
+	4450 5250 5950 5250
+Wire Wire Line
+	4450 6250 6100 6250
+Wire Wire Line
+	4450 2550 4700 2550
+Wire Wire Line
+	4800 4000 4450 4000
+Wire Wire Line
+	4800 5050 4450 5050
+Wire Wire Line
+	4800 6000 4450 6000
+Wire Wire Line
+	4600 6500 4450 6500
+Wire Wire Line
+	4600 3350 4600 4500
+Wire Wire Line
+	4600 5500 4450 5500
+Wire Wire Line
+	4450 4500 4600 4500
+Wire Wire Line
+	4450 3350 4600 3350
+Wire Wire Line
+	6450 2350 6300 2350
+Wire Wire Line
+	6300 2350 6300 2600
+Wire Wire Line
+	6900 2600 6900 2350
+Wire Wire Line
+	6900 2350 7050 2350
+Wire Wire Line
+	7050 2250 7050 2100
+Wire Wire Line
+	7050 2100 6300 2100
+Wire Wire Line
+	6300 2100 6300 2250
+Wire Wire Line
+	6300 2250 6450 2250
+Wire Wire Line
+	2750 2650 2000 2650
+Wire Wire Line
+	2000 2650 2000 3200
+Wire Wire Line
+	2000 3200 1850 3200
+Wire Wire Line
+	1850 3300 2100 3300
+Wire Wire Line
+	2100 3300 2100 2800
+Wire Wire Line
+	2100 2800 2750 2800
+Wire Wire Line
+	1850 3400 2200 3400
+Wire Wire Line
+	2200 3400 2200 3000
+Wire Wire Line
+	2200 3000 2750 3000
+Wire Wire Line
+	1850 3500 2300 3500
+Wire Wire Line
+	2300 3500 2300 3150
+Wire Wire Line
+	2300 3150 2750 3150
+Wire Wire Line
+	2750 4450 2000 4450
+Wire Wire Line
+	2000 4450 2000 4000
+Wire Wire Line
+	2000 4000 1850 4000
+Wire Wire Line
+	1850 3900 2100 3900
+Wire Wire Line
+	2100 3900 2100 4300
+Wire Wire Line
+	2100 4300 2750 4300
+Wire Wire Line
+	2750 4150 2200 4150
+Wire Wire Line
+	2200 4150 2200 3700
+Wire Wire Line
+	2200 3700 1850 3700
+Wire Wire Line
+	1850 3800 2250 3800
+Wire Wire Line
+	2250 3800 2250 4000
+Wire Wire Line
+	2250 4000 2750 4000
+Wire Wire Line
+	1850 5350 1950 5350
+Wire Wire Line
+	1950 5350 1950 5100
+Wire Wire Line
+	1950 5100 2750 5100
+Wire Wire Line
+	1850 5450 2050 5450
+Wire Wire Line
+	2050 5450 2050 5250
+Wire Wire Line
+	2050 5250 2750 5250
+Wire Wire Line
+	2750 5550 1850 5550
+Wire Wire Line
+	1850 5650 2150 5650
+Wire Wire Line
+	2150 5650 2150 5400
+Wire Wire Line
+	2150 5400 2750 5400
+Wire Wire Line
+	2750 6500 1950 6500
+Wire Wire Line
+	1950 6500 1950 6150
+Wire Wire Line
+	1950 6150 1850 6150
+Wire Wire Line
+	2750 6350 2050 6350
+Wire Wire Line
+	2050 6350 2050 6050
+Wire Wire Line
+	2050 6050 1850 6050
+Wire Wire Line
+	1850 5950 2150 5950
+Wire Wire Line
+	2150 5950 2150 6050
+Wire Wire Line
+	2150 6050 2750 6050
+Wire Wire Line
+	2750 6200 2250 6200
+Wire Wire Line
+	2250 6200 2250 5850
+Wire Wire Line
+	2250 5850 1850 5850
+Wire Wire Line
+	1850 5750 2250 5750
+Wire Wire Line
+	2550 5750 2650 5750
+Wire Wire Line
+	1550 6350 1550 6500
+Wire Wire Line
+	2100 3600 1850 3600
+Wire Wire Line
+	2400 3600 2500 3600
+Wire Wire Line
+	1550 4500 1550 4600
+Wire Wire Line
+	1550 6800 1550 6850
+Wire Wire Line
+	4700 2550 4700 2350
+Wire Wire Line
+	4800 4000 4800 5050
+Wire Wire Line
+	4800 5050 4800 6000
+Wire Wire Line
+	4600 5500 4600 6500
+Wire Wire Line
+	4600 4500 4600 5500
+Wire Wire Line
+	4600 6500 4600 6650
+Wire Wire Line
+	4700 2550 4800 2550
+Wire Wire Line
+	5650 850  6000 850 
+Wire Wire Line
+	6000 850  6000 800 
+Wire Wire Line
+	6050 1350 6350 1350
+Wire Wire Line
+	6600 1450 6050 1450
+Wire Wire Line
+	6050 1550 6300 1550
+Wire Wire Line
+	6350 1000 6350 1050
+Wire Wire Line
+	6350 1050 6600 1050
+Wire Wire Line
+	6600 1050 6600 1150
+Connection ~ 4800 4000
+Connection ~ 4800 5050
+Connection ~ 4600 5500
+Connection ~ 4600 4500
+Connection ~ 4600 6500
+Connection ~ 4700 2550
+Connection ~ 6350 1050
+NoConn ~ 9200 1300
+NoConn ~ 9200 1550
+NoConn ~ 9200 1850
+NoConn ~ 9200 2150
+NoConn ~ 6050 1150
+Wire Wire Line
+	4800 2550 4800 4000
+$Comp
+L Connector:Conn_01x04_Male J6
+U 1 1 6014226E
+P 8000 1000
+F 0 "J6" H 8108 1281 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 8108 1190 50  0000 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 8000 1000 50  0001 C CNN
+F 3 "~" H 8000 1000 50  0001 C CNN
+F 4 "JST" H 950 0   50  0001 C CNN "MFR"
+F 5 "SM04B-SRSS-TB" H 950 0   50  0001 C CNN "MPN"
+F 6 "-" H 950 0   50  0001 C CNN "SPN"
+F 7 "-" H 950 0   50  0001 C CNN "SPR"
+F 8 "-" H 950 0   50  0001 C CNN "SPURL"
+F 9 "" H 8000 1000 50 0001 C CNN "LCSC"
+	1    8000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:INDUCTOR L5
+U 1 1 60145BC8
+P 7750 3650
+F 0 "L5" H 7750 3865 50  0000 C CNN
+F 1 "6.8uH" H 7750 3774 50  0000 C CNN
+F 2 "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7750 3650 50  0001 C CNN
+F 3 "~" H 7750 3650 50  0001 C CNN
+F 4 "NLCV32T-6R8M-PFR" H 7750 3650 50  0001 C CNN "MPN"
+F 5 "C87559" H 7750 3650 50  0001 C CNN "LCSC"
+	1    7750 3650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2600 6900 2600
+$Comp
+L Device:C C42
+U 1 1 6014CDEB
+P 8100 3800
+F 0 "C42" H 8125 3900 50  0000 L CNN
+F 1 "100nF" H 8250 3850 50  0000 L TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8138 3650 50  0001 C CNN
+F 3 "CC0603KRX7R9BB104" H 8100 3800 50  0001 C CNN
+F 4 "Samsung" H -1500 -150 50  0001 C CNN "MFR"
+F 5 "" H -1500 -150 50  0001 C CNN "MPN"
+F 6 "" H -1500 -150 50  0001 C CNN "SPN"
+F 7 "" H -1500 -150 50  0001 C CNN "SPR"
+F 8 "-" H -1500 -150 50  0001 C CNN "SPURL"
+F 9 "" H 8100 3800 50 0001 C CNN "LCSC"
+	1    8100 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C43
+U 1 1 6014EC54
+P 8700 3800
+F 0 "C43" H 8725 3900 50  0000 L CNN
+F 1 "10nF" H 8850 3850 50  0000 L TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8738 3650 50  0001 C CNN
+F 3 "0603B103K500NT" H 8700 3800 50  0001 C CNN
+F 4 "Samsung" H -900 -150 50  0001 C CNN "MFR"
+F 5 "" H -900 -150 50  0001 C CNN "MPN"
+F 6 "C57112" H -900 -150 50  0001 C CNN "LCSC"
+F 7 "" H -900 -150 50  0001 C CNN "SPR"
+F 8 "-" H -900 -150 50  0001 C CNN "SPURL"
+	1    8700 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP C44
+U 1 1 601512E7
+P 9150 3800
+F 0 "C44" H 9268 3846 50  0000 L CNN
+F 1 "10uF" H 9268 3755 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I_Pad1.58x1.35mm_HandSolder" H 9188 3650 50  0001 C CNN
+F 3 "~" H 9150 3800 50  0001 C CNN
+F 4 "C7171" H 9150 3800 50  0001 C CNN "LCSC"
+F 5 "TAJA106K016RNJ" H 9150 3800 50  0001 C CNN "MPN"
+	1    9150 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 60151767
+P 8700 4050
+F 0 "#PWR0101" H 8700 3800 50  0001 C CNN
+F 1 "GND" H 8700 3900 50  0000 C CNN
+F 2 "" H 8700 4050 50  0001 C CNN
+F 3 "" H 8700 4050 50  0001 C CNN
+	1    8700 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 3950 8700 3950
+Wire Wire Line
+	8700 4050 8700 3950
+Connection ~ 8700 3950
+Wire Wire Line
+	8700 3950 9150 3950
+Wire Wire Line
+	8000 3650 8100 3650
+Connection ~ 8100 3650
+Wire Wire Line
+	8100 3650 8700 3650
+Connection ~ 8700 3650
+Wire Wire Line
+	8700 3650 9150 3650
+Connection ~ 9150 3650
+Wire Wire Line
+	9150 3650 9500 3650
+Wire Wire Line
+	7450 3650 7500 3650
+$Comp
+L Diode:BAT60A D1
+U 1 1 60160BB8
+P 6150 2100
+F 0 "D1" H 6150 2316 50  0000 C CNN
+F 1 "BAT60A" H 6150 2225 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 6150 1925 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9" H 6150 2100 50  0001 C CNN
+F 4 "" H 6150 2100 50 0001 C CNN "LCSC"
+F 5 "" H 6150 2100 50 0001 C CNN "MPN"
+	1    6150 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 6300 2100
+Text Label 6000 2100 2    60   ~ 0
+digital
+Text Label 7600 2900 2    50   ~ 0
+i2c_power
+$Comp
+L Diode:BAT60A D2
+U 1 1 60162997
+P 7750 2900
+F 0 "D2" H 7750 2684 50  0000 C CNN
+F 1 "BAT60A" H 7750 2775 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 7750 2725 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9" H 7750 2900 50  0001 C CNN
+F 4 "" H 7750 2900 50 0001 C CNN "LCSC"
+F 5 "" H 7750 2900 50 0001 C CNN "MPN"
+	1    7750 2900
+	-1   0    0    1   
+$EndComp
+Text Label 7900 2900 0    60   ~ 0
+digital
+$Comp
+L Jumper:Jumper_3_Open JP1
+U 1 1 5DA434D7
+P 6300 1700
+F 0 "JP1" H 6300 1831 50  0000 C CNN
+F 1 "DNF" H 6300 1922 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6300 1700 50  0001 C CNN
+F 3 "~" H 6300 1700 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPN"
+F 7 "-" H 0   0   50  0001 C CNN "SPR"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 6300 1700 50 0001 C CNN "LCSC"
+	1    6300 1700
+	-1   0    0    1   
+$EndComp
+Text Label 6550 1700 0    60   ~ 0
+digital
+Text Label 6350 1000 0    60   ~ 0
+digital
+$EndSCHEMATC

@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# ADR440ARMZ
+#
+DEF ADR440ARMZ IC 0 30 Y Y 1 F N
+F0 "IC" 500 150 50 H V C CNN
+F1 "ADR440ARMZ" 500 -450 50 H V C CNN
+F2 "SOP65P490X110-8N" 500 -550 50 H I C CNN
+F3 "http://docs-europe.electrocomponents.com/webdocs/0de0/0900766b80de0ad0.pdf" 500 -650 50 H I C CNN
+F4 "V-Ref Precision 2.048V 10mA 8-Pin MSOP" 500 -750 50 H I C CNN "Description"
+F5 "RS" 500 -850 50 H I C CNN "Supplier_Name"
+F6 "7098199" 500 -950 50 H I C CNN "RS Part Number"
+F7 "Analog Devices" 500 -1050 50 H I C CNN "Manufacturer_Name"
+F8 "ADR440ARMZ" 500 -1150 50 H I C CNN "Manufacturer_Part_Number"
+F9 "1.1" 850 -1450 50 H I C CNN "Height"
+DRAW
+S 200 100 800 -400 0 0 10 f
+X TP 1 0 0 200 R 50 50 0 0 N
+X VIN 2 0 -100 200 R 50 50 0 0 I
+X NC 3 0 -200 200 R 50 50 0 0 N
+X GND 4 0 -300 200 R 50 50 0 0 W
+X TRIM 5 1000 -300 200 L 50 50 0 0 U
+X VOUT 6 1000 -200 200 L 50 50 0 0 O
+X NC_1 7 1000 -100 200 L 50 50 0 0 N
+X TP_1 8 1000 0 200 L 50 50 0 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

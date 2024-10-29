@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "uart_mux-rescue")(type "Legacy")(uri "${KIPRJMOD}/uart_mux-rescue.lib")(options "")(descr ""))
+)

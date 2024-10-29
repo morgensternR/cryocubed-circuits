@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "Seeeduino XIAO")(type "Legacy")(uri "/Users/nams/Documents/projects/kicad6/library/Seeeduino XIAO KICAD/Seeeduino XIAO.lib")(options "")(descr ""))
+  (lib (name "schematic_library")(type "KiCad")(uri "${KIPRJMOD}/libraries/schematic_library.kicad_sym")(options "")(descr ""))
+  (lib (name "0lbl_amp")(type "KiCad")(uri "/Users/nams/Documents/projects/kicad6/library/lbl-kicad-components/lbl_amp.kicad_sym")(options "")(descr ""))
+)

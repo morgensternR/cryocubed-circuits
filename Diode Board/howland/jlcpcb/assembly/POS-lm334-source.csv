@@ -1,0 +1,26 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100nF,C_0402_1005Metric,112.65,-90.05,-90.0,top
+C2,100nF,C_0402_1005Metric,112.65,-92.135,-90.0,top
+C3,1uF,C_0402_1005Metric,114.05,-91.075,-90.0,top
+C4,100nF,C_0402_1005Metric,124.65,-88.35,0.0,top
+C5,100nF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,117.85,-98.45,0.0,top
+C6,100nF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,118.25,-87.85,180.0,top
+J1,Conn_01x04,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,103.25,-90.55,270.0,top
+J2,JST_SH_Conn_01x04_i2c_horizontal,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,135.75,-90.5,90.0,top
+J3,MMCX-KE-STM,MMCX-SMD_KH-MMCX-KE-STM,111.75,-97.25,0.0,top
+JP1,Jumper_NO_Small,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,107.95,-88.75,-90.0,top
+JP2,Jumper_NO_Small,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,107.95,-92.25,-90.0,top
+L1,MMZ2012Y202B ,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,121.635,-98.45,180.0,top
+Q1,MMBT3904,SOT-23,108.05,-84.45,0.0,top
+R1,10K,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,132.05,-96.5,90.0,top
+R2,10K,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,130.4,-96.5,90.0,top
+R3,100K,R_0402_1005Metric,110.765,-90.55,180.0,top
+R4,100K,R_0402_1005Metric,110.75,-91.65,180.0,top
+R5,10K 0.1%,R_0402_1005Metric,108.65,-97.74,-90.0,top
+R6,12.7K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,115.45,-85.75,180.0,top
+R7,1K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,111.95,-85.75,180.0,top
+R8,76.8K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,115.45,-83.75,180.0,top
+R9,46.4K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,111.95,-83.75,180.0,top
+U1,MCP3421A0T-ECH,SOT-23-6_Handsoldering,124.15,-91.65,270.0,top
+U2,LM334M,SOIC-8_3.9x4.9mm_P1.27mm,121.05,-84.15,270.0,top
+U3,OPA2376xxDGK,SOIC-8_3.9x4.9mm_P1.27mm,118.35,-92.65,180.0,top

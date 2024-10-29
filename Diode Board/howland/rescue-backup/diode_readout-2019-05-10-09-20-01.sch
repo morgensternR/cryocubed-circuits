@@ -1,0 +1,767 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Alex-KiCad-Misc
+LIBS:LM334Z
+LIBS:diode
+LIBS:1N457A
+LIBS:AD8237ARMZ
+LIBS:AD8276ARMZ
+LIBS:AD8603AUJZ-R2
+LIBS:ADR440ARMZ
+LIBS:MH
+LIBS:JST_lipo_adafruit
+LIBS:diode_readout-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2750 2400 1700 1050
+U 59ED0E6A
+F0 "Channel0" 60
+F1 "channel.sch" 60
+F2 "Vin" I R 4450 2550 60 
+F3 "gnd" I R 4450 3350 60 
+F4 "I+" O L 2750 2650 60 
+F5 "V+" I L 2750 2800 60 
+F6 "V-" I L 2750 3150 60 
+F7 "I-" O L 2750 3000 60 
+F8 "out" O R 4450 2900 60 
+F9 "1Vin" I R 4450 2750 60 
+$EndSheet
+$Sheet
+S 2750 3900 1700 700 
+U 59ED3D7B
+F0 "Channel1" 60
+F1 "channel.sch" 60
+F2 "Vin" I R 4450 4000 60 
+F3 "gnd" I R 4450 4500 60 
+F4 "I+" O L 2750 4000 60 
+F5 "V+" I L 2750 4150 60 
+F6 "V-" I L 2750 4300 60 
+F7 "I-" O L 2750 4450 60 
+F8 "out" O R 4450 4250 60 
+F9 "1Vin" I R 4450 4100 60 
+$EndSheet
+$Sheet
+S 2750 4950 1700 650 
+U 59ED3D94
+F0 "Channel2" 60
+F1 "channel.sch" 60
+F2 "Vin" I R 4450 5050 60 
+F3 "gnd" I R 4450 5500 60 
+F4 "I+" O L 2750 5100 60 
+F5 "V+" I L 2750 5250 60 
+F6 "V-" I L 2750 5400 60 
+F7 "I-" O L 2750 5550 60 
+F8 "out" O R 4450 5250 60 
+F9 "1Vin" I R 4450 5150 60 
+$EndSheet
+$Sheet
+S 2750 5950 1700 600 
+U 59ED3DAD
+F0 "Channel3" 60
+F1 "channel.sch" 60
+F2 "Vin" I R 4450 6000 60 
+F3 "gnd" I R 4450 6500 60 
+F4 "I+" O L 2750 6050 60 
+F5 "V+" I L 2750 6200 60 
+F6 "V-" I L 2750 6350 60 
+F7 "I-" O L 2750 6500 60 
+F8 "out" O R 4450 6250 60 
+F9 "1Vin" I R 4450 6100 60 
+$EndSheet
+$Comp
+L JST_lipo_adafruit J107
+U 1 1 59ED5F16
+P 6650 2250
+F 0 "J107" H 6650 2350 50  0000 C CNN
+F 1 "Conn_01x02" H 6650 2050 50  0000 C CNN
+F 2 "parts:JST_lipo_adafruit" H 6650 2250 50  0001 C CNN
+F 3 "" H 6650 2250 50  0001 C CNN
+F 4 "JST" H 0   0   50  0001 C CNN "MFR"
+F 5 "B2B-PH-K-S(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
+F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "455-1704-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L JST_lipo_adafruit J108
+U 1 1 59ED5FF3
+P 7250 2250
+F 0 "J108" H 7250 2350 50  0000 C CNN
+F 1 "Conn_01x02" H 7250 2050 50  0000 C CNN
+F 2 "parts:JST_lipo_adafruit" H 7250 2250 50  0001 C CNN
+F 3 "" H 7250 2250 50  0001 C CNN
+F 4 "JST" H 0   0   50  0001 C CNN "MFR"
+F 5 "B2B-PH-K-S(LF)(SN)" H 0   0   50  0001 C CNN "MPN"
+F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "455-1704-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    7250 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 59EDE0D2
+P 4600 6650
+F 0 "#PWR01" H 4600 6400 50  0001 C CNN
+F 1 "GND" H 4600 6500 50  0000 C CNN
+F 2 "" H 4600 6650 50  0001 C CNN
+F 3 "" H 4600 6650 50  0001 C CNN
+	1    4600 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L DB9_Female_MountingHoles J101
+U 1 1 59EDF591
+P 1550 3600
+F 0 "J101" H 1550 4250 50  0000 C CNN
+F 1 "DB9_Female_MountingHoles" H 1550 4175 50  0000 C CNN
+F 2 "Connectors_DSub:DB9_ASSMANN" H 1550 3600 50  0001 C CNN
+F 3 "" H 1550 3600 50  0001 C CNN
+F 4 "A-DF 09 A/KG-T2S" H 1550 3600 60  0001 C CNN "MPN"
+F 5 "ASSMANN" H 0   0   50  0001 C CNN "MFR"
+F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "AE10921-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    1550 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L DB9_Female_MountingHoles J102
+U 1 1 59EDF835
+P 1550 5750
+F 0 "J102" H 1550 6400 50  0000 C CNN
+F 1 "DB9_Female_MountingHoles" H 1550 6325 50  0000 C CNN
+F 2 "Connectors_DSub:DB9_ASSMANN" H 1550 5750 50  0001 C CNN
+F 3 "" H 1550 5750 50  0001 C CNN
+F 4 "A-DF 09 A/KG-T4S" H 1550 5750 60  0001 C CNN "MPN"
+F 5 "ASSMANN" H 0   0   50  0001 C CNN "MFR"
+F 6 "digikey" H 0   0   50  0001 C CNN "SPR"
+F 7 "AE10921-ND" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    1550 5750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R104
+U 1 1 59EE6157
+P 2400 5750
+F 0 "R104" V 2480 5750 50  0000 C CNN
+F 1 "open" V 2400 5750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2330 5750 50  0001 C CNN
+F 3 "" H 2400 5750 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    2400 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R103
+U 1 1 59EE8ACA
+P 2250 3600
+F 0 "R103" V 2330 3600 50  0000 C CNN
+F 1 "open" V 2250 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2180 3600 50  0001 C CNN
+F 3 "" H 2250 3600 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    2250 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 59EE8D33
+P 2500 3600
+F 0 "#PWR02" H 2500 3350 50  0001 C CNN
+F 1 "GND" H 2500 3450 50  0000 C CNN
+F 2 "" H 2500 3600 50  0001 C CNN
+F 3 "" H 2500 3600 50  0001 C CNN
+	1    2500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 59EE8E62
+P 2650 5750
+F 0 "#PWR03" H 2650 5500 50  0001 C CNN
+F 1 "GND" H 2650 5600 50  0000 C CNN
+F 2 "" H 2650 5750 50  0001 C CNN
+F 3 "" H 2650 5750 50  0001 C CNN
+	1    2650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R102
+U 1 1 59EE8F53
+P 1550 6650
+F 0 "R102" V 1630 6650 50  0000 C CNN
+F 1 "open" V 1550 6650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1480 6650 50  0001 C CNN
+F 3 "" H 1550 6650 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    1550 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R101
+U 1 1 59EE9044
+P 1550 4350
+F 0 "R101" V 1630 4350 50  0000 C CNN
+F 1 "open" V 1550 4350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1480 4350 50  0001 C CNN
+F 3 "" H 1550 4350 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    1550 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 59EE9127
+P 1550 6850
+F 0 "#PWR04" H 1550 6600 50  0001 C CNN
+F 1 "GND" H 1550 6700 50  0000 C CNN
+F 2 "" H 1550 6850 50  0001 C CNN
+F 3 "" H 1550 6850 50  0001 C CNN
+	1    1550 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 59EE91FE
+P 1550 4600
+F 0 "#PWR05" H 1550 4350 50  0001 C CNN
+F 1 "GND" H 1550 4450 50  0000 C CNN
+F 2 "" H 1550 4600 50  0001 C CNN
+F 3 "" H 1550 4600 50  0001 C CNN
+	1    1550 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_Coaxial J104
+U 1 1 59EE9C48
+P 6200 2900
+F 0 "J104" H 6210 3020 50  0000 C CNN
+F 1 "Conn_Coaxial" V 6315 2900 50  0000 C CNN
+F 2 "parts:73413-0040_SSMCX" H 6200 2900 50  0001 C CNN
+F 3 "0734130050 / 0734130052" H 6200 2900 50  0001 C CNN
+F 4 "Molex" H 0   0   50  0001 C CNN "MFR"
+F 5 "0734130040" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_Coaxial J105
+U 1 1 59EEAA80
+P 6200 4250
+F 0 "J105" H 6210 4370 50  0000 C CNN
+F 1 "Conn_Coaxial" V 6315 4250 50  0000 C CNN
+F 2 "parts:73413-0040_SSMCX" H 6200 4250 50  0001 C CNN
+F 3 "0734130050 / 0734130052" H 6200 4250 50  0001 C CNN
+F 4 "Molex" H 0   0   50  0001 C CNN "MFR"
+F 5 "0734130040" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_Coaxial J103
+U 1 1 59EEAB8E
+P 6100 5250
+F 0 "J103" H 6110 5370 50  0000 C CNN
+F 1 "Conn_Coaxial" V 6215 5250 50  0000 C CNN
+F 2 "parts:73413-0040_SSMCX" H 6100 5250 50  0001 C CNN
+F 3 "0734130050 / 0734130052" H 6100 5250 50  0001 C CNN
+F 4 "Molex" H 0   0   50  0001 C CNN "MFR"
+F 5 "0734130040" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6100 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_Coaxial J106
+U 1 1 59EEAC79
+P 6250 6250
+F 0 "J106" H 6260 6370 50  0000 C CNN
+F 1 "Conn_Coaxial" V 6365 6250 50  0000 C CNN
+F 2 "parts:73413-0040_SSMCX" H 6250 6250 50  0001 C CNN
+F 3 "0734130050 / 0734130052" H 6250 6250 50  0001 C CNN
+F 4 "Molex" H 0   0   50  0001 C CNN "MFR"
+F 5 "0734130040" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    6250 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG06
+U 1 1 59EEF81D
+P 4700 2350
+F 0 "#FLG06" H 4700 2425 50  0001 C CNN
+F 1 "PWR_FLAG" H 4700 2500 50  0000 C CNN
+F 2 "" H 4700 2350 50  0001 C CNN
+F 3 "" H 4700 2350 50  0001 C CNN
+	1    4700 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG07
+U 1 1 59EEFD97
+P 6900 2350
+F 0 "#FLG07" H 6900 2425 50  0001 C CNN
+F 1 "PWR_FLAG" H 6900 2500 50  0000 C CNN
+F 2 "" H 6900 2350 50  0001 C CNN
+F 3 "" H 6900 2350 50  0001 C CNN
+	1    6900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADR440ARMZ IC101
+U 1 1 5A496B7C
+P 7900 3500
+F 0 "IC101" H 8400 3650 50  0000 C CNN
+F 1 "ADR440ARMZ" H 8400 3050 50  0000 C CNN
+F 2 "ADR440ARMZ:SOP65P490X110-8N" H 8400 2950 50  0001 C CNN
+F 3 "http://docs-europe.electrocomponents.com/webdocs/0de0/0900766b80de0ad0.pdf" H 8400 2850 50  0001 C CNN
+F 4 "V-Ref Precision 2.048V 10mA 8-Pin MSOP" H 8400 2750 50  0001 C CNN "Description"
+F 5 "RS" H 8400 2650 50  0001 C CNN "Supplier_Name"
+F 6 "7098199" H 8400 2550 50  0001 C CNN "RS Part Number"
+F 7 "Analog Devices" H 8400 2450 50  0001 C CNN "Manufacturer_Name"
+F 8 "ADR440ARMZ" H 8400 2350 50  0001 C CNN "Manufacturer_Part_Number"
+F 9 "" H 8400 2250 50  0001 C CNN "Allied_Number"
+F 10 "" H 8400 2150 50  0001 C CNN "Other Part Number"
+F 11 "1.1" H 8750 2050 50  0001 C CNN "Height"
+F 12 "ADI" H 0   0   50  0001 C CNN "MFR"
+F 13 "ADR440ARMZ " H 0   0   50  0001 C CNN "MPN"
+F 14 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 15 "584-ADR440ARMZ " H 0   0   50  0001 C CNN "SPN"
+F 16 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    7900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R105
+U 1 1 5A49875B
+P 9300 3850
+F 0 "R105" V 9380 3850 50  0000 C CNN
+F 1 "1050" V 9300 3850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9230 3850 50  0001 C CNN
+F 3 "" H 9300 3850 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0805FR-071K05L" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    9300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R106
+U 1 1 5A498874
+P 9300 4200
+F 0 "R106" V 9380 4200 50  0000 C CNN
+F 1 "1K" V 9300 4200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9230 4200 50  0001 C CNN
+F 3 "" H 9300 4200 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "RT0805FRE071KL" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    9300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C101
+U 1 1 5A49896A
+P 7550 3400
+F 0 "C101" H 7575 3500 50  0000 L CNN
+F 1 "0.1uF" H 7575 3300 50  0000 L TNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7588 3250 50  0001 C CNN
+F 3 "" H 7550 3400 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    7550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MountingHole MH101
+U 1 1 5A49671B
+P 9400 1300
+F 0 "MH101" H 9400 1400 50  0000 C CNN
+F 1 "MountingHole" H 9400 1200 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad" H 9400 1300 50  0001 C CNN
+F 3 "" H 9400 1300 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    9400 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MountingHole MH102
+U 1 1 5A496851
+P 9400 1550
+F 0 "MH102" H 9400 1650 50  0000 C CNN
+F 1 "MountingHole" H 9400 1450 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad" H 9400 1550 50  0001 C CNN
+F 3 "" H 9400 1550 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    9400 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MountingHole MH103
+U 1 1 5A496973
+P 9400 1850
+F 0 "MH103" H 9400 1950 50  0000 C CNN
+F 1 "MountingHole" H 9400 1750 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad" H 9400 1850 50  0001 C CNN
+F 3 "" H 9400 1850 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    9400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MountingHole MH104
+U 1 1 5A496A82
+P 9400 2150
+F 0 "MH104" H 9400 2250 50  0000 C CNN
+F 1 "MountingHole" H 9400 2050 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm_Pad" H 9400 2150 50  0001 C CNN
+F 3 "" H 9400 2150 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    9400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C102
+U 1 1 5A4985CF
+P 9600 3950
+F 0 "C102" H 9625 4050 50  0000 L CNN
+F 1 "0.1uF" H 9625 3850 50  0000 L TNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9638 3800 50  0001 C CNN
+F 3 "" H 9600 3950 50  0001 C CNN
+F 4 "-" H 0   0   50  0001 C CNN "MFR"
+F 5 "-" H 0   0   50  0001 C CNN "MPN"
+F 6 "-" H 0   0   50  0001 C CNN "SPR"
+F 7 "-" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+	1    9600 3950
+	1    0    0    -1  
+$EndComp
+Text Label 6800 2100 0    60   ~ 0
+Power
+Text Label 4800 2550 0    60   ~ 0
+Power
+Text Label 6800 3100 0    60   ~ 0
+GND
+Text Notes 6450 1900 0    60   ~ 0
+JST, pin1-gnd, pin2-power
+Text Label 7550 4050 0    60   ~ 0
+1V
+Text Label 5000 2750 0    60   ~ 0
+1V
+Wire Wire Line
+	4450 2900 6050 2900
+Wire Wire Line
+	4450 4250 6050 4250
+Wire Wire Line
+	4450 5250 5950 5250
+Wire Wire Line
+	4450 6250 6100 6250
+Wire Wire Line
+	4450 2550 4800 2550
+Wire Wire Line
+	4800 2550 4800 6000
+Wire Wire Line
+	4800 4000 4450 4000
+Wire Wire Line
+	4800 5050 4450 5050
+Wire Wire Line
+	4800 6000 4450 6000
+Wire Wire Line
+	4600 6500 4450 6500
+Wire Wire Line
+	4600 3350 4600 6650
+Wire Wire Line
+	4600 5500 4450 5500
+Wire Wire Line
+	4450 4500 4600 4500
+Wire Wire Line
+	4450 3350 4600 3350
+Wire Wire Line
+	6450 2350 6300 2350
+Wire Wire Line
+	6300 2350 6300 2600
+Wire Wire Line
+	6300 2600 6900 2600
+Wire Wire Line
+	6900 2600 6900 2350
+Wire Wire Line
+	6900 2350 7050 2350
+Wire Wire Line
+	7050 2250 7050 2100
+Wire Wire Line
+	7050 2100 6300 2100
+Wire Wire Line
+	6300 2100 6300 2250
+Wire Wire Line
+	6300 2250 6450 2250
+Wire Wire Line
+	2750 2650 2000 2650
+Wire Wire Line
+	2000 2650 2000 3200
+Wire Wire Line
+	2000 3200 1850 3200
+Wire Wire Line
+	1850 3300 2100 3300
+Wire Wire Line
+	2100 3300 2100 2800
+Wire Wire Line
+	2100 2800 2750 2800
+Wire Wire Line
+	1850 3400 2200 3400
+Wire Wire Line
+	2200 3400 2200 3000
+Wire Wire Line
+	2200 3000 2750 3000
+Wire Wire Line
+	1850 3500 2300 3500
+Wire Wire Line
+	2300 3500 2300 3150
+Wire Wire Line
+	2300 3150 2750 3150
+Wire Wire Line
+	2750 4450 2000 4450
+Wire Wire Line
+	2000 4450 2000 4000
+Wire Wire Line
+	2000 4000 1850 4000
+Wire Wire Line
+	1850 3900 2100 3900
+Wire Wire Line
+	2100 3900 2100 4300
+Wire Wire Line
+	2100 4300 2750 4300
+Wire Wire Line
+	2750 4150 2200 4150
+Wire Wire Line
+	2200 4150 2200 3700
+Wire Wire Line
+	2200 3700 1850 3700
+Wire Wire Line
+	1850 3800 2250 3800
+Wire Wire Line
+	2250 3800 2250 4000
+Wire Wire Line
+	2250 4000 2750 4000
+Wire Wire Line
+	1850 5350 1950 5350
+Wire Wire Line
+	1950 5350 1950 5100
+Wire Wire Line
+	1950 5100 2750 5100
+Wire Wire Line
+	1850 5450 2050 5450
+Wire Wire Line
+	2050 5450 2050 5250
+Wire Wire Line
+	2050 5250 2750 5250
+Wire Wire Line
+	2750 5550 1850 5550
+Wire Wire Line
+	1850 5650 2150 5650
+Wire Wire Line
+	2150 5650 2150 5400
+Wire Wire Line
+	2150 5400 2750 5400
+Wire Wire Line
+	2750 6500 1950 6500
+Wire Wire Line
+	1950 6500 1950 6150
+Wire Wire Line
+	1950 6150 1850 6150
+Wire Wire Line
+	2750 6350 2050 6350
+Wire Wire Line
+	2050 6350 2050 6050
+Wire Wire Line
+	2050 6050 1850 6050
+Wire Wire Line
+	1850 5950 2150 5950
+Wire Wire Line
+	2150 5950 2150 6050
+Wire Wire Line
+	2150 6050 2750 6050
+Wire Wire Line
+	2750 6200 2250 6200
+Wire Wire Line
+	2250 6200 2250 5850
+Wire Wire Line
+	2250 5850 1850 5850
+Wire Wire Line
+	1850 5750 2250 5750
+Wire Wire Line
+	2550 5750 2650 5750
+Wire Wire Line
+	1550 6350 1550 6500
+Wire Wire Line
+	2100 3600 1850 3600
+Wire Wire Line
+	2400 3600 2500 3600
+Wire Wire Line
+	1550 4500 1550 4600
+Wire Wire Line
+	1550 6800 1550 6850
+Wire Wire Line
+	6800 6450 6250 6450
+Wire Wire Line
+	6800 2600 6800 6450
+Wire Wire Line
+	6800 3100 6200 3100
+Wire Wire Line
+	6200 4450 9600 4450
+Wire Wire Line
+	6100 5450 6800 5450
+Wire Wire Line
+	4700 2550 4700 2350
+Wire Wire Line
+	7900 3800 6800 3800
+Wire Wire Line
+	7900 3600 4800 3600
+Wire Wire Line
+	7550 3250 6800 3250
+Wire Wire Line
+	7550 3550 7550 3600
+Wire Wire Line
+	8900 3700 9600 3700
+Wire Wire Line
+	9300 4000 9300 4050
+Wire Wire Line
+	9300 4450 9300 4350
+Wire Wire Line
+	9300 4050 7550 4050
+Wire Wire Line
+	4450 2750 5000 2750
+Wire Wire Line
+	5000 2750 5000 5150
+Wire Wire Line
+	5000 4100 4450 4100
+Wire Wire Line
+	5000 5150 4450 5150
+Wire Wire Line
+	4450 6100 5000 6100
+Wire Wire Line
+	5000 6100 5000 5100
+Wire Wire Line
+	9600 3700 9600 3800
+Wire Wire Line
+	9600 4450 9600 4100
+Connection ~ 4800 4000
+Connection ~ 4800 5050
+Connection ~ 4600 5500
+Connection ~ 4600 4500
+Connection ~ 4600 6500
+Connection ~ 6800 4450
+Connection ~ 6800 5450
+Connection ~ 4700 2550
+Connection ~ 6800 3100
+Connection ~ 6800 2600
+Connection ~ 6800 3800
+Connection ~ 4800 3600
+Connection ~ 6800 3250
+Connection ~ 7550 3600
+Connection ~ 5000 4100
+Connection ~ 5000 5100
+Connection ~ 9300 3700
+Connection ~ 9300 4450
+NoConn ~ 8900 3800
+NoConn ~ 9200 1300
+NoConn ~ 9200 1550
+NoConn ~ 9200 1850
+NoConn ~ 9200 2150
+$EndSCHEMATC

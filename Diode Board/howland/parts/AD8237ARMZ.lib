@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# AD8237ARMZ
+#
+DEF AD8237ARMZ IC 0 30 Y Y 1 F N
+F0 "IC" 500 150 50 H V C CNN
+F1 "AD8237ARMZ" 500 -450 50 H V C CNN
+F2 "SOP65P490X110-8N" 500 -550 50 H I C CNN
+F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD8237.pdf" 500 -650 50 H I C CNN
+F4 "Instrumentation Amp Micropower RRIO MSOP Analog Devices AD8237ARMZ Instrumentation Amplifier, 75V Offset 6MHz GBW, CMMR 106dB, 1.8  5.5 V, 8-Pin MSOP" 500 -750 50 H I C CNN "Description"
+F5 "RS" 500 -850 50 H I C CNN "Supplier_Name"
+F6 "7785105" 500 -950 50 H I C CNN "RS Part Number"
+F7 "Analog Devices" 500 -1050 50 H I C CNN "Manufacturer_Name"
+F8 "AD8237ARMZ" 500 -1150 50 H I C CNN "Manufacturer_Part_Number"
+F9 "1.1" 850 -1450 50 H I C CNN "Height"
+DRAW
+S 200 100 800 -400 0 0 10 f
+X BW 1 0 0 200 R 50 50 0 0 I
+X +IN 2 0 -100 200 R 50 50 0 0 I
+X -IN 3 0 -200 200 R 50 50 0 0 I
+X -VS 4 0 -300 200 R 50 50 0 0 W
+X +VS 5 1000 -300 200 L 50 50 0 0 W
+X REF 6 1000 -200 200 L 50 50 0 0 P
+X FB 7 1000 -100 200 L 50 50 0 0 I
+X VOUT 8 1000 0 200 L 50 50 0 0 O
+ENDDRAW
+ENDDEF
+#
+#End Library

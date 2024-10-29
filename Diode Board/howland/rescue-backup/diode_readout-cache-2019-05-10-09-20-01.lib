@@ -1,0 +1,323 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# AD8237ARMZ
+#
+DEF AD8237ARMZ IC 0 30 Y Y 1 F N
+F0 "IC" 500 150 50 H V C CNN
+F1 "AD8237ARMZ" 500 -450 50 H V C CNN
+F2 "SOP65P490X110-8N" 500 -550 50 H I C CNN
+F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD8237.pdf" 500 -650 50 H I C CNN
+F4 "Instrumentation Amp Micropower RRIO MSOP Analog Devices AD8237ARMZ Instrumentation Amplifier, 75V Offset 6MHz GBW, CMMR 106dB, 1.8  5.5 V, 8-Pin MSOP" 500 -750 50 H I C CNN "Description"
+F5 "RS" 500 -850 50 H I C CNN "Supplier_Name"
+F6 "7785105" 500 -950 50 H I C CNN "RS Part Number"
+F7 "Analog Devices" 500 -1050 50 H I C CNN "Manufacturer_Name"
+F8 "AD8237ARMZ" 500 -1150 50 H I C CNN "Manufacturer_Part_Number"
+F9 "1.1" 850 -1450 50 H I C CNN "Height"
+DRAW
+S 200 100 800 -400 0 0 10 f
+X BW 1 0 0 200 R 50 50 0 0 I
+X +IN 2 0 -100 200 R 50 50 0 0 I
+X -IN 3 0 -200 200 R 50 50 0 0 I
+X -VS 4 0 -300 200 R 50 50 0 0 W
+X +VS 5 1000 -300 200 L 50 50 0 0 W
+X REF 6 1000 -200 200 L 50 50 0 0 P
+X FB 7 1000 -100 200 L 50 50 0 0 I
+X VOUT 8 1000 0 200 L 50 50 0 0 O
+ENDDRAW
+ENDDEF
+#
+# AD8276ARMZ
+#
+DEF AD8276ARMZ IC 0 30 Y Y 1 F N
+F0 "IC" 550 150 50 H V C CNN
+F1 "AD8276ARMZ" 550 -450 50 H V C CNN
+F2 "SOP65P490X110-8N" 550 -550 50 H I C CNN
+F3 "http://docs-europe.electrocomponents.com/webdocs/10ad/0900766b810adb2e.pdf" 550 -650 50 H I C CNN
+F4 "Analog Devices AD8276ARMZ, Differential Amplifier 0.55MHz Rail to Rail Output 8-pin MSOP" 550 -750 50 H I C CNN "Description"
+F5 "RS" 550 -850 50 H I C CNN "Supplier_Name"
+F6 "7590042" 550 -950 50 H I C CNN "RS Part Number"
+F7 "Analog Devices" 550 -1050 50 H I C CNN "Manufacturer_Name"
+F8 "AD8276ARMZ" 550 -1150 50 H I C CNN "Manufacturer_Part_Number"
+F9 "1.1" 950 -1450 50 H I C CNN "Height"
+DRAW
+S 200 100 900 -400 0 0 10 f
+X REF 1 0 0 200 R 50 50 0 0 I
+X −IN 2 0 -100 200 R 50 50 0 0 I
+X +IN 3 0 -200 200 R 50 50 0 0 I
+X −VS 4 0 -300 200 R 50 50 0 0 W
+X SENSE 5 1100 -300 200 L 50 50 0 0 I
+X OUT 6 1100 -200 200 L 50 50 0 0 O
+X +VS 7 1100 -100 200 L 50 50 0 0 W
+X NC 8 1100 0 200 L 50 50 0 0 N
+ENDDRAW
+ENDDEF
+#
+# AD8603AUJZ-R2
+#
+DEF AD8603AUJZ-R2 IC 0 30 Y Y 1 F N
+F0 "IC" 450 150 50 H V C CNN
+F1 "AD8603AUJZ-R2" 450 -350 50 H V C CNN
+F2 "SOT95P280X100-5N" 450 -450 50 H I C CNN
+F3 "http://componentsearchengine.com/Datasheets/3/AD8603AUJZ-R2.pdf" 450 -550 50 H I C CNN
+F4 "AD8603AUJZ-R2, Operational Amplifier 0.4MHz CMOS, Rail-Rail, 3 V, 5-Pin TSOT" 450 -650 50 H I C CNN "Description"
+F5 "RS" 450 -750 50 H I C CNN "Supplier_Name"
+F6 "6977322" 450 -850 50 H I C CNN "RS Part Number"
+F7 "Analog Devices" 450 -950 50 H I C CNN "Manufacturer_Name"
+F8 "AD8603AUJZ-R2" 450 -1050 50 H I C CNN "Manufacturer_Part_Number"
+F9 "1" 750 -1350 50 H I C CNN "Height"
+DRAW
+S 200 100 700 -300 0 0 10 f
+X OUT 1 0 0 200 R 50 50 0 0 O
+X V- 2 0 -100 200 R 50 50 0 0 W
+X IN+ 3 0 -200 200 R 50 50 0 0 I
+X -IN 4 900 0 200 L 50 50 0 0 I
+X V 5 900 -100 200 L 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+# ADR440ARMZ
+#
+DEF ADR440ARMZ IC 0 30 Y Y 1 F N
+F0 "IC" 500 150 50 H V C CNN
+F1 "ADR440ARMZ" 500 -450 50 H V C CNN
+F2 "SOP65P490X110-8N" 500 -550 50 H I C CNN
+F3 "http://docs-europe.electrocomponents.com/webdocs/0de0/0900766b80de0ad0.pdf" 500 -650 50 H I C CNN
+F4 "V-Ref Precision 2.048V 10mA 8-Pin MSOP" 500 -750 50 H I C CNN "Description"
+F5 "RS" 500 -850 50 H I C CNN "Supplier_Name"
+F6 "7098199" 500 -950 50 H I C CNN "RS Part Number"
+F7 "Analog Devices" 500 -1050 50 H I C CNN "Manufacturer_Name"
+F8 "ADR440ARMZ" 500 -1150 50 H I C CNN "Manufacturer_Part_Number"
+F9 "1.1" 850 -1450 50 H I C CNN "Height"
+DRAW
+S 200 100 800 -400 0 0 10 f
+X TP 1 0 0 200 R 50 50 0 0 N
+X VIN 2 0 -100 200 R 50 50 0 0 I
+X NC 3 0 -200 200 R 50 50 0 0 N
+X GND 4 0 -300 200 R 50 50 0 0 W
+X TRIM 5 1000 -300 200 L 50 50 0 0 U
+X VOUT 6 1000 -200 200 L 50 50 0 0 O
+X NC_1 7 1000 -100 200 L 50 50 0 0 N
+X TP_1 8 1000 0 200 L 50 50 0 0 N
+ENDDRAW
+ENDDEF
+#
+# C
+#
+DEF C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CP1
+#
+DEF CP1 C 0 10 N N 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "CP1" 25 -100 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+A 0 -150 128 1287 513 0 1 20 N -80 -50 80 -50
+P 2 0 1 20 -80 30 80 30 N
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 70 -50 110 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 130 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Conn_Coaxial
+#
+DEF Conn_Coaxial J 0 40 Y N 1 F N
+F0 "J" 10 120 50 H V C CNN
+F1 "Conn_Coaxial" 115 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *BNC*
+ *SMA*
+ *SMB*
+ *SMC*
+ *Cinch*
+$ENDFPLIST
+DRAW
+A -2 0 71 1636 0 0 1 10 N -70 20 70 0
+A -1 0 71 0 -1638 0 1 10 N 70 0 -70 -20
+C 0 0 20 0 1 8 N
+P 2 0 1 0 -50 0 -20 0 N
+P 2 0 1 0 0 -100 0 -70 N
+X In 1 -150 0 100 R 50 50 1 1 P
+X Ext 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DB9_Female_MountingHoles
+#
+DEF DB9_Female_MountingHoles J 0 40 Y N 1 F N
+F0 "J" 0 650 50 H V C CNN
+F1 "DB9_Female_MountingHoles" 0 575 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ DB*F*
+$ENDFPLIST
+DRAW
+C -70 -400 30 0 1 0 N
+C -70 -200 30 0 1 0 N
+C -70 0 30 0 1 0 N
+C -70 200 30 0 1 0 N
+C -70 400 30 0 1 0 N
+C 50 -300 30 0 1 0 N
+C 50 -100 30 0 1 0 N
+C 50 100 30 0 1 0 N
+C 50 300 30 0 1 0 N
+P 2 0 1 0 -150 -400 -100 -400 N
+P 2 0 1 0 -150 -300 20 -300 N
+P 2 0 1 0 -150 -200 -100 -200 N
+P 2 0 1 0 -150 -100 20 -100 N
+P 2 0 1 0 -150 0 -100 0 N
+P 2 0 1 0 -150 100 20 100 N
+P 2 0 1 0 -150 200 -100 200 N
+P 2 0 1 0 -150 300 20 300 N
+P 2 0 1 0 -150 400 -100 400 N
+P 5 0 1 10 -150 525 -150 -525 150 -375 150 375 -150 525 f
+X PAD 0 0 -600 150 U 50 50 1 1 P
+X 1 1 -300 400 150 R 50 50 1 1 P
+X 2 2 -300 200 150 R 50 50 1 1 P
+X 3 3 -300 0 150 R 50 50 1 1 P
+X 4 4 -300 -200 150 R 50 50 1 1 P
+X 5 5 -300 -400 150 R 50 50 1 1 P
+X 6 6 -300 300 150 R 50 50 1 1 P
+X 7 7 -300 100 150 R 50 50 1 1 P
+X 8 8 -300 -100 150 R 50 50 1 1 P
+X 9 9 -300 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Ferrite_Bead_Small
+#
+DEF Ferrite_Bead_Small L 0 0 N Y 1 F N
+F0 "L" 75 50 50 H V L CNN
+F1 "Ferrite_Bead_Small" 75 -50 50 H V L CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Inductor_*
+ L_*
+ *Ferrite*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -50 0 -31 N
+P 2 0 1 0 0 35 0 51 N
+P 5 0 1 0 -72 11 -44 59 72 -8 44 -56 -72 11 N
+X ~ 1 0 100 50 D 50 50 1 1 P
+X ~ 2 0 -100 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND
+#
+DEF GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# JST_lipo_adafruit
+#
+DEF JST_lipo_adafruit J 0 40 Y Y 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "JST_lipo_adafruit" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X + 1 -200 0 150 R 50 50 1 1 P
+X - 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MountingHole
+#
+DEF MountingHole MH 0 40 Y N 1 F N
+F0 "MH" 0 100 50 H V C CNN
+F1 "MountingHole" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+ Mounting*:*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PWR_FLAG
+#
+DEF PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X pwr 1 0 0 0 U 50 50 0 0 w
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+ENDDRAW
+ENDDEF
+#
+# R
+#
+DEF R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

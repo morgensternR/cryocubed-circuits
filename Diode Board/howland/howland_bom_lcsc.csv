@@ -1,0 +1,35 @@
+Component,Description,Part,References,Value,Footprint,LCSC,MFR,MPN
+1,Unpolarized capacitor,C,C103 C104 C201 C202 C204 C206 C207 C301 C302 C304 C306 C307 C401 C402 C404 C406 C407 C501 C502 C504 C506 C507,100nF,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C14663,Samsung,
+2,"Polarized capacitor, US symbol",CP1,C205 C305 C405 C505,10uF,CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder,C7171,AVX,TAJA106K016RNJ
+3,Unpolarized capacitor,C,C101 C102 C203 C303 C403 C503,1uF,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C15849,Samsung,CL10A105KB8NNNC
+4,"Instrumentation Amp Micropower RRIO MSOP Analog Devices AD8237ARMZ Instrumentation Amplifier, 75V Offset 6MHz GBW, CMMR 106dB, 1.8  5.5 V, 8-Pin MSOP",AD8237ARMZ,IC202 IC302 IC402 IC502,AD8237ARMZ,SOP65P490X110-8N,C12086,Analog Devices,AD8237ARMZ
+5,"Precision Micropower, Low Noise CMOS, Rail-to-Rail Input/Output Operational Amplifier, TSOT-23-5",AD8603,IC102 IC203 IC303 IC403 IC503,AD8603AUJZ-R2,TSOT-23-5,C14937,Analog Devices,AD8603AUJZ-R2
+6,"Low Power, Wide Supply Range, Low Cost Unity-Gain Difference Amplifier, SOIC-8/MSOP-8",AD8276,IC201 IC301 IC401 IC501,INA132U,SOIC-8_3.9x4.9mm_P1.27mm,C38199,TI,INA132UA/2K5
+7,"2.048V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference, SOT-23-3",REF3020,IC101,REF3320,SOT-323_SC-70,C134146,TI,REF3320AIDCKT
+8,"Generic connector, single row, 01x02",JST_lipo_adafruit,J107 J108,Conn_01x02,JST_lipo_adafruit,,JST,B2B-PH-K-S(LF)(SN)
+9,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Male,J109,Conn_01x04_Male,JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,,JST,SM04B-SRSS-TB
+10,"coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)",Conn_Coaxial,J103 J104 J105 J106,Conn_Coaxial,ssmcx_thru,,Molex,734130040
+11,"Ferrite bead, small symbol",Ferrite_Bead_Small,L201 L301 L401 L501,MMZ2012Y152B ,L_0805_HandSoldering,C21517,TDK,MMZ2012Y152B
+12,Resistor,R,R105,1.87K 0.1%,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,Panasonic,ERJ-PB3B1871V
+13,Resistor,R,R204 R205 R304 R305 R404 R405 R504 R505,100k,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C25803,Yageo,RC0603FR-07100KL
+14,Resistor,R,R202 R302 R402 R502,10k,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C25804,Yageo,RC0603FR-0710KL
+15,Resistor,R,R107 R108,4.7K,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C23162,-,RC0603FR-074K7L
+16,Resistor,R,R201 R301 R401 R501,50k,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C23184,Yageo,RC0603FR-0749K9L
+17,Resistor,R,R106,604 0.1%,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,,-,ERJ-PB3B6040V
+18,"Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10",ADS1115IDGS,U101,ADS1115IDGS,TSSOP-10_3x3mm_P0.5mm,C37593 ,-,ADS1115IDGSR
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Component Groups:,22,,,,,,,
+Component Count:,85,,,,,,,
+Fitted Components:,78,,,,,,,
+Number of PCBs:,1,,,,,,,
+Total components:,78,,,,,,,
+Schematic Version:,,,,,,,,
+Schematic Date:,,,,,,,,
+PCB Variant:,default,,,,,,,
+BoM Date:,"Monday, March 02, 2020 at 08:18:43 AM",,,,,,,
+Schematic Source:,/Users/nams/Documents/projects/kicad/kicad-diode-readout-jlcpcb/diode-readout-jlcpcb.sch,,,,,,,
+KiCad Version:,Eeschema (5.1.5-0),,,,,,,

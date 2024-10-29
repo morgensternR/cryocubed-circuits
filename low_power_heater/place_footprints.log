@@ -1,0 +1,19 @@
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 405:Plugin executed on: 'win32'
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 406:Plugin executed with python version: '3.9.16 (main, Apr  9 2023, 05:22:13) [MSC v.1934 64 bit (AMD64)]'
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 407:KiCad build version: 7.0.2
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 408:Plugin version: 2.0.3
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.action_place_footprints 409:Frame repr: <wx._core.Frame object at 0x00000197AD86A8B0>
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 121:getting a list of all footprints on board
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J1 on root level
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U2 on root level
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint U1 on root level
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J7 on root level
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J6 on root level
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J5 on root level
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J4 on root level
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J3 on root level
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint J2 on root level
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C8 on root level
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C7 on root level
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C6 on root level
+07-17 12:50:36 com_github_MitjaNemec_PlaceFootprints.place_footprints 156:Footprint C5 on root level

@@ -1,0 +1,13 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "1N457A")(type "Legacy")(uri "$(KIPRJMOD)/parts/1N457A.mod")(options "")(descr ""))
+  (lib (name "LM334Z")(type "Legacy")(uri "$(KIPRJMOD)/parts/LM334Z.mod")(options "")(descr ""))
+  (lib (name "AD8237ARMZ")(type "Legacy")(uri "$(KIPRJMOD)/parts/AD8237ARMZ.mod")(options "")(descr ""))
+  (lib (name "Connectors_DSub")(type "KiCad")(uri "$(KIPRJMOD)/parts/Connectors_DSub.pretty")(options "")(descr ""))
+  (lib (name "Connectors_HDMI")(type "KiCad")(uri "$(KIPRJMOD)/parts/Connectors_HDMI.pretty")(options "")(descr ""))
+  (lib (name "parts")(type "KiCad")(uri "$(KIPRJMOD)/parts.pretty")(options "")(descr ""))
+  (lib (name "AD8276ARMZ")(type "Legacy")(uri "$(KIPRJMOD)/parts/AD8276ARMZ.mod")(options "")(descr ""))
+  (lib (name "AD8603AUJZ-R2")(type "Legacy")(uri "$(KIPRJMOD)/parts/AD8603AUJZ-R2.mod")(options "")(descr ""))
+  (lib (name "ADR440ARMZ")(type "Legacy")(uri "$(KIPRJMOD)/parts/ADR440ARMZ.mod")(options "")(descr ""))
+  (lib (name "0_Library")(type "KiCad")(uri "${KIPRJMOD}/0_Library.pretty")(options "")(descr ""))
+)

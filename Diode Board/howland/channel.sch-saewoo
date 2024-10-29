@@ -1,0 +1,221 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R7
+U 1 1 59ED125E
+P 4050 3900
+AR Path="/59ED0E6A/59ED125E" Ref="R7"  Part="1" 
+AR Path="/59ED3D7B/59ED125E" Ref="R13"  Part="1" 
+AR Path="/59ED3D94/59ED125E" Ref="R19"  Part="1" 
+AR Path="/59ED3DAD/59ED125E" Ref="R25"  Part="1" 
+F 0 "R7" V 4130 3900 50  0000 C CNN
+F 1 "10k" V 4050 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3980 3900 50  0001 C CNN
+F 3 "" H 4050 3900 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0603FR-0710KL" H 0   0   50  0001 C CNN "MPN"
+F 6 "" H 0   0   50  0001 C CNN "SPR"
+F 7 "" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 4050 3900 50 0001 C CNN "LCSC"
+	1    4050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 59ED1265
+P 4350 3500
+AR Path="/59ED0E6A/59ED1265" Ref="R8"  Part="1" 
+AR Path="/59ED3D7B/59ED1265" Ref="R14"  Part="1" 
+AR Path="/59ED3D94/59ED1265" Ref="R20"  Part="1" 
+AR Path="/59ED3DAD/59ED1265" Ref="R26"  Part="1" 
+F 0 "R8" V 4430 3500 50  0000 C CNN
+F 1 "100k" V 4350 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4280 3500 50  0001 C CNN
+F 3 "" H 4350 3500 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0603FR-07100KL" H 0   0   50  0001 C CNN "MPN"
+F 6 "" H 0   0   50  0001 C CNN "SPR"
+F 7 "" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 4350 3500 50 0001 C CNN "LCSC"
+	1    4350 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 59ED126C
+P 4350 3700
+AR Path="/59ED0E6A/59ED126C" Ref="R9"  Part="1" 
+AR Path="/59ED3D7B/59ED126C" Ref="R15"  Part="1" 
+AR Path="/59ED3D94/59ED126C" Ref="R21"  Part="1" 
+AR Path="/59ED3DAD/59ED126C" Ref="R27"  Part="1" 
+F 0 "R9" V 4430 3700 50  0000 C CNN
+F 1 "100k" V 4350 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4280 3700 50  0001 C CNN
+F 3 "" H 4350 3700 50  0001 C CNN
+F 4 "Yageo" H 0   0   50  0001 C CNN "MFR"
+F 5 "RC0603FR-07100KL" H 0   0   50  0001 C CNN "MPN"
+F 6 "" H 0   0   50  0001 C CNN "SPR"
+F 7 "" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 4350 3700 50 0001 C CNN "LCSC"
+	1    4350 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 59ED1586
+P 4050 4100
+AR Path="/59ED0E6A/59ED1586" Ref="#PWR06"  Part="1" 
+AR Path="/59ED3D7B/59ED1586" Ref="#PWR022"  Part="1" 
+AR Path="/59ED3D94/59ED1586" Ref="#PWR038"  Part="1" 
+AR Path="/59ED3DAD/59ED1586" Ref="#PWR054"  Part="1" 
+F 0 "#PWR054" H 4050 3850 50  0001 C CNN
+F 1 "GND" H 4050 3950 50  0000 C CNN
+F 2 "" H 4050 4100 50  0001 C CNN
+F 3 "" H 4050 4100 50  0001 C CNN
+	1    4050 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small L1
+U 1 1 59ED27B9
+P 6000 2350
+AR Path="/59ED0E6A/59ED27B9" Ref="L1"  Part="1" 
+AR Path="/59ED3D7B/59ED27B9" Ref="L2"  Part="1" 
+AR Path="/59ED3D94/59ED27B9" Ref="L3"  Part="1" 
+AR Path="/59ED3DAD/59ED27B9" Ref="L4"  Part="1" 
+F 0 "L1" V 6150 2300 50  0000 L CNN
+F 1 "MMZ2012Y152B " V 6075 2300 50  0000 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5930 2350 50  0001 C CNN
+F 3 "" H 6000 2350 50  0001 C CNN
+F 4 "TDK" H 0   0   50  0001 C CNN "MFR"
+F 5 "MMZ2012Y152B" H 0   0   50  0001 C CNN "MPN"
+F 6 "" H 0   0   50  0001 C CNN "SPR"
+F 7 "" H 0   0   50  0001 C CNN "SPN"
+F 8 "-" H 0   0   50  0001 C CNN "SPURL"
+F 9 "" H 6000 2350 50 0001 C CNN "LCSC"
+	1    6000 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 59ED2C8B
+P 7250 3100
+AR Path="/59ED0E6A/59ED2C8B" Ref="#PWR07"  Part="1" 
+AR Path="/59ED3D7B/59ED2C8B" Ref="#PWR023"  Part="1" 
+AR Path="/59ED3D94/59ED2C8B" Ref="#PWR039"  Part="1" 
+AR Path="/59ED3DAD/59ED2C8B" Ref="#PWR055"  Part="1" 
+F 0 "#PWR055" H 7250 2850 50  0001 C CNN
+F 1 "GND" H 7250 2950 50  0000 C CNN
+F 2 "" H 7250 3100 50  0001 C CNN
+F 3 "" H 7250 3100 50  0001 C CNN
+	1    7250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 59EEDC8E
+P 5650 2150
+AR Path="/59ED0E6A/59EEDC8E" Ref="#FLG03"  Part="1" 
+AR Path="/59ED3D7B/59EEDC8E" Ref="#FLG04"  Part="1" 
+AR Path="/59ED3D94/59EEDC8E" Ref="#FLG05"  Part="1" 
+AR Path="/59ED3DAD/59EEDC8E" Ref="#FLG06"  Part="1" 
+F 0 "#FLG06" H 5650 2225 50  0001 C CNN
+F 1 "PWR_FLAG" H 5650 2300 50  0000 C CNN
+F 2 "" H 5650 2150 50  0001 C CNN
+F 3 "" H 5650 2150 50  0001 C CNN
+	1    5650 2150
+	1    0    0    -1  
+$EndComp
+Text Label 5650 2350 0    60   ~ 0
+Vpower
+Text HLabel 6100 2350 2    60   Input ~ 0
+Vin
+Text HLabel 7150 2700 0    60   Input ~ 0
+gnd
+Text HLabel 3400 3450 0    60   Output ~ 0
+I+
+Text HLabel 3400 3550 0    60   Input ~ 0
+V+
+Text HLabel 3400 3650 0    60   Input ~ 0
+V-
+Text HLabel 3400 3750 0    60   Output ~ 0
+I-
+Wire Wire Line
+	4200 3500 3650 3500
+Wire Wire Line
+	4200 3700 3650 3700
+Wire Wire Line
+	3400 3750 4050 3750
+Wire Wire Line
+	4050 4050 4050 4100
+Wire Wire Line
+	3650 3700 3650 3650
+Wire Wire Line
+	3650 3650 3400 3650
+Wire Wire Line
+	3650 3500 3650 3550
+Wire Wire Line
+	3650 3550 3400 3550
+Wire Wire Line
+	7150 2700 7250 2700
+Wire Wire Line
+	5650 2150 5650 2350
+Wire Wire Line
+	7250 2700 7250 3100
+Wire Wire Line
+	5650 2350 5900 2350
+Wire Wire Line
+	3400 3450 4050 3450
+Wire Wire Line
+	4350 3200 4050 3200
+Wire Wire Line
+	4050 3200 4050 3450
+$Sheet
+S 3550 2400 700  300 
+U 600F2881
+F0 "Sheet600F2880" 50
+F1 "10uA.sch" 50
+F2 "Vpower" I L 3550 2550 50 
+F3 "10uA" O R 4250 2550 50 
+$EndSheet
+Text Label 3300 2550 2    60   ~ 0
+Vpower
+Wire Wire Line
+	4350 3200 4350 2550
+Wire Wire Line
+	4250 2550 4350 2550
+$Sheet
+S 4500 3400 700  400 
+U 60120551
+F0 "Sheet60120550" 50
+F1 "Vreadout.sch" 50
+F2 "out" O R 5200 3700 50 
+F3 "in+" I L 4500 3500 50 
+F4 "in-" I L 4500 3700 50 
+F5 "Vpower" I R 5200 3500 50 
+$EndSheet
+Text HLabel 5700 3700 2    50   Output ~ 0
+out
+Wire Wire Line
+	5700 3700 5200 3700
+Wire Wire Line
+	3300 2550 3550 2550
+Text Label 5200 3500 0    60   ~ 0
+Vpower
+$EndSCHEMATC
